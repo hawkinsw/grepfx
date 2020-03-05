@@ -3,4 +3,4 @@
 fx=$1;
 shift;
 
-grep --color=auto --include="*${fx}" $@
+grep --color=auto --include="*${fx}" "$@"
