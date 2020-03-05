@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+fx=$1;
+shift;
+
+grep --color=auto --include="*${fx}" $@
